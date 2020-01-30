@@ -1,10 +1,11 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "",
-    "test:staged": ""
+    "test:staged": "",
+    "dev": "nodemon src/server.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -20,6 +21,12 @@
     "git-commit-msg-linter": "^2.3.11",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.4",
+    "nodemon": "^2.0.2",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0"
   }
 }
