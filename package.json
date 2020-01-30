@@ -2,6 +2,10 @@
   "name": "clean-node-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "",
+    "test:staged": ""
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.5.2",
@@ -14,6 +18,8 @@
     "eslint-plugin-promise": "4",
     "eslint-plugin-standard": "4",
     "git-commit-msg-linter": "^2.3.11",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.4",
     "typescript": "^3.7.5"
   }
 }
